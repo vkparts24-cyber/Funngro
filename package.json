@@ -1,0 +1,18 @@
+{
+  "name": "funngro-smart-website",
+  "version": "1.0.0",
+  "description": "Smart 2-page responsive website for Funngro (Hire Companies & Earn Teens)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "funngro",
+    "teen-freelancing",
+    "student-earning",
+    "hire-freelancers",
+    "seo-friendly"
+  ],
+  "author": "Funngro Applicant",
+  "license": "MIT"
+}
