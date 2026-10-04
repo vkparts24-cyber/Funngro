@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Funngro | Hire Smart Teen Talent & Earn Money as a Student Freelancer</title>
+  <meta name="title" content="Funngro | Hire Smart Teen Talent & Earn Money as a Student Freelancer">
+  <meta name="description" content="Funngro connects companies with top 1% smart teen freelancers for content, graphic design, web development, social media & video editing. Start hiring or start earning today!">
+  <meta name="keywords" content="Hire Teen Freelancers, Earn Money Online Students, Funngro, Student Freelancing India, Micro Tasks for Startups, Youth Freelance Platform, Part Time Gigs for Teens">
+  <meta name="author" content="Funngro">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.funngro.com/">
+  <meta property="og:title" content="Funngro | The Smart Talent Platform for Companies & Teens">
+  <meta property="og:description" content="Outsource micro-tasks to motivated young talent or build your portfolio and earn real money as a teen freelancer.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Funngro | Smart Teen Freelancers & Student Earnings">
+  <meta property="twitter:description" content="Hire talented teens for content, design, and code. Or start earning money while building real-world experience.">
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Schema.org JSON-LD Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Funngro",
+    "url": "https://www.funngro.com",
+    "logo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=300&auto=format&fit=crop",
+    "description": "Funngro is a smart platform enabling companies to hire talented teens for micro-projects while empowering students to earn their first income.",
+    "sameAs": [
+      "https://facebook.com/funngro",
+      "https://instagram.com/funngro",
+      "https://linkedin.com/company/funngro"
+    ]
+  }
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Tailwind Custom Colors & Configuration -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            funnGreen: {
+              400: '#34D399',
+              500: '#10B981',
+              600: '#059669',
+              700: '#047857',
+              glow: 'rgba(16, 185, 129, 0.25)'
+            },
+            funnDark: {
+              900: '#0B0F19',
+              800: '#111827',
+              700: '#1F2937',
+              600: '#374151'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          animation: {
+            'pulse-glow': 'pulseGlow 3s infinite alternate',
+            'float': 'float 6s ease-in-out infinite',
+          },
+          keyframes: {
+            pulseGlow: {
+              '0%': { boxShadow: '0 0 15px rgba(16, 185, 129, 0.2)' },
+              '100%': { boxShadow: '0 0 35px rgba(16, 185, 129, 0.6)' },
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-12px)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* Custom Styling for Glassmorphism & Backgrounds */
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0B0F19;
+      color: #F3F4F6;
+      overflow-x: hidden;
+    }
+
+    .bg-grid-pattern {
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    }
+
+    .glass-card {
+      background: rgba(17, 24, 39, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .glass-card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-5px);
+      border-color: rgba(16, 185, 129, 0.4);
+      box-shadow: 0 10px 30px -10px rgba(16, 185, 129, 0.25);
+    }
+
+    .gradient-text-green {
+      background: linear-gradient(135deg, #A7F3D0 0%, #10B981 50%, #059669 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gradient-text-blue {
+      background: linear-gradient(135deg, #60A5FA 0%, #3B82F6 50%, #1D4ED8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Glow details */
+    .glow-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(90px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Smooth page fade animations */
+    .page-fade-in {
+      animation: pageFadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    @keyframes pageFadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-funnDark-900 text-gray-100 antialiased min-h-screen flex flex-col relative bg-grid-pattern">
+
+  <div class="glow-orb w-[400px] h-[400px] bg-funnGreen-500/15 top-[-50px] left-[-100px]"></div>
+  <div class="glow-orb w-[500px] h-[500px] bg-blue-600/10 top-[400px] right-[-150px]"></div>
+  <div class="glow-orb w-[350px] h-[350px] bg-emerald-500/10 bottom-[200px] left-[20%]"></div>
+
+  <header class="sticky top-0 z-50 bg-funnDark-900/80 backdrop-blur-xl border-b border-white/10 px-4 lg:px-8 py-3.5 transition-all">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-2 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-funnGreen-600 to-emerald-400 flex items-center justify-center font-extrabold text-xl text-funnDark-900 shadow-lg shadow-funnGreen-500/30 group-hover:scale-105 transition-transform">
+          FG
+        </div>
+        <div class="flex flex-col">
+          <span class="text-2xl font-black tracking-tight text-white flex items-center gap-1">
+            Funngro<span class="w-2 h-2 rounded-full bg-funnGreen-500 animate-pulse"></span>
+          </span>
+          <span class="text-[10px] text-gray-400 font-medium tracking-widest uppercase -mt-1">Smart Talent</span>
+        </div>
+      </a>
+
+      <!-- Center Dynamic Toggle Switch (Desktop & Tablet) -->
+      <div class="hidden md:flex items-center bg-funnDark-800/90 p-1.5 rounded-full border border-white/10 shadow-inner">
+        <button id="btn-toggle-company" onclick="switchPage('company')" class="flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 text-white bg-gradient-to-r from-funnGreen-600 to-funnGreen-500 shadow-md shadow-funnGreen-500/30">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>For Companies</span>
+        </button>
+        <button id="btn-toggle-teen" onclick="switchPage('teen')" class="flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 text-gray-400 hover:text-white">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>For Teens</span>
+        </button>
+      </div>
+
+      <!-- Action Buttons & Mobile Menu Toggle -->
+      <div class="flex items-center gap-3">
+        <a href="#cta-section" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm bg-white/5 hover:bg-white/10 text-white border border-white/10 transition-all hover:border-funnGreen-500/50">
+          <span>Sign In</span>
+        </a>
+        <a href="#cta-section" id="nav-cta-btn" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm bg-gradient-to-r from-funnGreen-500 to-emerald-600 hover:from-funnGreen-400 hover:to-emerald-500 text-funnDark-900 shadow-lg shadow-funnGreen-500/25 transition-all transform hover:-translate-y-0.5">
+          <i class="fa-solid fa-rocket text-xs"></i>
+          <span id="nav-cta-text">Hire Talent</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button onclick="toggleMobileMenu()" class="md:hidden p-2.5 text-gray-300 hover:text-white bg-funnDark-800 rounded-xl border border-white/10 focus:outline-none">
+          <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden mt-3 pt-3 border-t border-white/10 px-2 pb-4 space-y-3">
+      <div class="grid grid-cols-2 gap-2 p-1 bg-funnDark-800 rounded-xl border border-white/10">
+        <button id="m-btn-toggle-company" onclick="switchPage('company'); toggleMobileMenu();" class="py-2.5 px-3 rounded-lg font-bold text-xs flex items-center justify-center gap-2 bg-funnGreen-500 text-funnDark-900">
+          <i class="fa-solid fa-briefcase"></i> For Companies
+        </button>
+        <button id="m-btn-toggle-teen" onclick="switchPage('teen'); toggleMobileMenu();" class="py-2.5 px-3 rounded-lg font-bold text-xs flex items-center justify-center gap-2 text-gray-300">
+          <i class="fa-solid fa-graduation-cap"></i> For Teens
+        </button>
+      </div>
+      <div class="flex flex-col gap-2 pt-2">
+        <a href="#how-it-works" onclick="toggleMobileMenu()" class="px-4 py-2 text-sm text-gray-300 hover:text-white rounded-lg hover:bg-white/5">How It Works</a>
+        <a href="#skills-section" onclick="toggleMobileMenu()" class="px-4 py-2 text-sm text-gray-300 hover:text-white rounded-lg hover:bg-white/5">Skills & Talent</a>
+        <a href="#testimonials" onclick="toggleMobileMenu()" class="px-4 py-2 text-sm text-gray-300 hover:text-white rounded-lg hover:bg-white/5">Success Stories</a>
+        <a href="#faq" onclick="toggleMobileMenu()" class="px-4 py-2 text-sm text-gray-300 hover:text-white rounded-lg hover:bg-white/5">FAQs</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow z-10">
+
+    <!-- ================================================================= -->
+    <!-- PAGE 1: COMPANY PAGE (HIRE TALENT)                                -->
+    <!-- ================================================================= -->
+    <div id="company-page" class="page-fade-in space-y-24 py-8 lg:py-16">
+
+      <!-- Hero Section -->
+      <section class="max-w-7xl mx-auto px-4 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+            
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-funnGreen-500/10 border border-funnGreen-500/30 text-funnGreen-400 text-xs sm:text-sm font-semibold tracking-wide">
+              <span class="flex h-2 w-2 rounded-full bg-funnGreen-400 animate-ping"></span>
+              <span>Next-Gen Workforce Solution</span>
+              <i class="fa-solid fa-chevron-right text-[10px]"></i>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.15]">
+              Outsource Tasks to <br class="hidden sm:inline">
+              <span class="gradient-text-green">Smart Teen Talent</span> at Scale
+            </h1>
+
+            <p class="text-lg sm:text-xl text-gray-300 font-normal max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+              Connect with India’s top 1% tech-savvy student creators, developers, and writers. Get high-quality micro-projects completed 5x faster at affordable pricing.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <a href="#cta-section" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-base bg-gradient-to-r from-funnGreen-500 to-emerald-600 hover:from-funnGreen-400 hover:to-emerald-500 text-funnDark-900 shadow-xl shadow-funnGreen-500/30 transition-all transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                <span>Post Your First Project</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="#how-it-works" class="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-base bg-funnDark-800 hover:bg-funnDark-700 text-white border border-white/10 transition-all flex items-center justify-center gap-2">
+                <i class="fa-solid fa-circle-play text-funnGreen-400"></i>
+                <span>See How It Works</span>
+              </a>
+            </div>
+
+            <!-- Trust Badges -->
+            <div class="pt-6 border-t border-white/10 flex flex-wrap items-center justify-center lg:justify-start gap-8 text-gray-400 text-xs sm:text-sm font-medium">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-funnGreen-500"></i>
+                <span>Zero Upfront Costs</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-shield-halved text-funnGreen-500"></i>
+                <span>100% Secure Escrow</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-user-check text-funnGreen-500"></i>
+                <span>Pre-Screened Teens</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hero Graphic / Interactive Card Stack -->
+          <div class="lg:col-span-5 relative">
+            <div class="glass-card rounded-3xl p-6 border border-white/10 shadow-2xl relative z-10 animate-float">
+              
+              <div class="flex items-center justify-between pb-4 border-b border-white/10 mb-6">
+                <div class="flex items-center gap-3">
+                  <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-blue-500 to-indigo-600 flex items-center justify-center font-bold text-white text-lg">
+                    AC
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-white text-sm">Acme Startups Inc.</h4>
+                    <p class="text-xs text-funnGreen-400 font-medium">Project Completed • Just Now</p>
+                  </div>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-funnGreen-500/20 text-funnGreen-400 border border-funnGreen-500/30">
+                  Verified Result
+                </span>
+              </div>
+
+              <div class="space-y-4">
+                <div class="p-4 rounded-2xl bg-funnDark-900/80 border border-white/5 space-y-2">
+                  <div class="flex justify-between items-center text-xs text-gray-400">
+                    <span>Task Name</span>
+                    <span class="text-white font-semibold">Social Media Reel Package</span>
+                  </div>
+                  <div class="flex justify-between items-center text-xs text-gray-400">
+                    <span>Delivered By</span>
+                    <span class="text-funnGreen-400 font-bold">Aarav M. (17 yrs)</span>
+                  </div>
+                  <div class="flex justify-between items-center text-xs text-gray-400">
+                    <span>Turnaround Time</span>
+                    <span class="text-white font-semibold">24 Hours</span>
+                  </div>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-gradient-to-r from-funnGreen-500/10 to-emerald-500/5 border border-funnGreen-500/20 flex items-center justify-between">
+                  <div>
+                    <p class="text-xs text-gray-300">Cost Saved vs Agency</p>
+                    <p class="text-xl font-black text-white">₹12,500 <span class="text-xs text-funnGreen-400 font-normal">(65% savings)</span></p>
+                  </div>
+                  <div class="text-right">
+                    <p class="text-xs text-gray-300">Rating Given</p>
+                    <p class="text-sm font-bold text-yellow-400"><i class="fa-solid fa-star"></i> 5.0 / 5.0</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick Stats counter floating box -->
+              <div class="mt-6 pt-4 border-t border-white/10 grid grid-cols-3 gap-2 text-center">
+                <div>
+                  <p class="text-lg font-black text-white">3,500+</p>
+                  <p class="text-[11px] text-gray-400">Active Companies</p>
+                </div>
+                <div>
+                  <p class="text-lg font-black text-funnGreen-400">25,000+</p>
+                  <p class="text-[11px] text-gray-400">Tasks Completed</p>
+                </div>
+                <div>
+                  <p class="text-lg font-black text-white">4.9/5</p>
+                  <p class="text-[11px] text-gray-400">Client CSAT</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Background subtle decorative shapes -->
+            <div class="absolute -bottom-6 -right-6 w-full h-full bg-gradient-to-tr from-funnGreen-500/20 to-blue-500/20 rounded-3xl filter blur-2xl -z-10"></div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="skills-section" class="max-w-7xl mx-auto px-4 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Explore <span class="gradient-text-green">Talent Categories</span>
+          </h2>
+          <p class="text-gray-400 text-base">
+            From creative design to coding and social media management, our verified teen talent delivers top-notch quality across every domain.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Skill Card 1 -->
+          <div class="glass-card glass-card-hover rounded-2xl p-6 relative overflow-hidden group">
+            <div class="w-14 h-14 rounded-2xl bg-funnGreen-500/10 border border-funnGreen-500/30 flex items-center justify-center text-funnGreen-400 text-2xl mb-5 group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Graphic & UI Design</h3>
+            <p class="text-gray-400 text-sm mb-4 leading-relaxed">Logos, Canva social posts, Figma app prototypes, banners, and thumbnail creation.</p>
+            <div class="flex items-center justify-between text-xs font-semibold text-funnGreen-400 pt-3 border-t border-white/10">
+              <span>5,200+ Teen Designers</span>
+              <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+            </div>
+          </div>
+
+             <!-- Skill Card 2 -->
+          <div class="glass-card glass-card-hover rounded-2xl p-6 relative overflow-hidden group">
+            <div class="w-14 h-14 rounded-2xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 text-2xl mb-5 group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Web Development</h3>
+            <p class="text-gray-400 text-sm mb-4 leading-relaxed">HTML/CSS, Tailwind, React pages, WordPress setup, and website QA bug testing.</p>
+            <div class="flex items-center justify-between text-xs font-semibold text-blue-400 pt-3 border-t border-white/10">
+              <span>3,800+ Teen Coders</span>
+              <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+            </div>
+          </div>
+
+          <!-- Skill Card 3 -->
+          <div class="glass-card glass-card-hover rounded-2xl p-6 relative overflow-hidden group">
+            <div class="w-14 h-14 rounded-2xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 text-2xl mb-5 group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-pen-fancy"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Content & Blogs</h3>
+            <p class="text-gray-400 text-sm mb-4 leading-relaxed">SEO articles, product copy, newsletter writing, and proofreading services.</p>
+            <div class="flex items-center justify-between text-xs font-semibold text-purple-400 pt-3 border-t border-white/10">
+              <span>6,100+ Teen Writers</span>
+              <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+            </div>
+          </div>
+
+          <!-- Skill Card 4 -->
+          <div class="glass-card glass-card-hover rounded-2xl p-6 relative overflow-hidden group">
+            <div class="w-14 h-14 rounded-2xl bg-pink-500/10 border border-pink-500/30 flex items-center justify-center text-pink-400 text-2xl mb-5 group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-video"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Video Editing & Reels</h3>
+            <p class="text-gray-400 text-sm mb-4 leading-relaxed">Shorts, Instagram Reels, YouTube cuts, captions, and trend social management.</p>
+            <div class="flex items-center justify-between text-xs font-semibold text-pink-400 pt-3 border-t border-white/10">
+              <span>4,400+ Video Creators</span>
+              <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- How It Works Section (Companies) -->
+      <section id="how-it-works" class="max-w-7xl mx-auto px-4 lg:px-8">
+        <div class="glass-card rounded-3xl p-8 sm:p-12 border border-white/10 relative overflow-hidden">
+          <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="text-xs font-bold uppercase tracking-widest text-funnGreen-400 bg-funnGreen-500/10 px-3 py-1 rounded-full border border-funnGreen-500/20">3-Step Simple Process</span>
+            <h2 class="text-3xl font-black text-white mt-3">How Companies Hire on Funngro</h2>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+            
+            <div class="text-center space-y-4">
+              <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-funnGreen-500 to-emerald-400 text-funnDark-900 font-black text-2xl flex items-center justify-center mx-auto shadow-lg shadow-funnGreen-500/20">
+                1
+              </div>
+              <h3 class="text-xl font-bold text-white">Post Your Task</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">Define your requirements, deliverables, budget, and timeline in less than 2 minutes.</p>
+            </div>
+
+            <div class="text-center space-y-4">
+              <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-funnGreen-500 to-emerald-400 text-funnDark-900 font-black text-2xl flex items-center justify-center mx-auto shadow-lg shadow-funnGreen-500/20">
+                2
+              </div>
+              <h3 class="text-xl font-bold text-white">Select Smart Teen Talent</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">Review incoming applications, check student portfolios, and assign the project instantly.</p>
+            </div>
+
+            <div class="text-center space-y-4">
+              <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-funnGreen-500 to-emerald-400 text-funnDark-900 font-black text-2xl flex items-center justify-center mx-auto shadow-lg shadow-funnGreen-500/20">
+                3
+              </div>
+              <h3 class="text-xl font-bold text-white">Approve & Pay Securely</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">Receive high-quality deliverables and release escrow payment only when fully satisfied.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="max-w-7xl mx-auto px-4 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <h2 class="text-3xl font-extrabold">Loved by <span class="gradient-text-green">Forward-Thinking Leaders</span></h2>
+          <p class="text-gray-400 text-sm mt-2">See how startups and brands build better products with Funngro.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="glass-card rounded-2xl p-6 border border-white/10 space-y-4">
+            <div class="flex text-yellow-400 text-sm gap-1">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-300 text-sm italic">"Funngro teens delivered our entire launch video reel campaign in 48 hours. The creativity and speed were off the charts!"</p>
+            <div class="pt-2 border-t border-white/10 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">RK</div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Rajesh K.</h4>
+                <p class="text-xs text-gray-400">Founder, HealthTech India</p>
+              </div>
+            </div>
+          </div>
