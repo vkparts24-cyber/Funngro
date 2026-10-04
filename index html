@@ -663,5 +663,331 @@
             <h3 class="text-xl font-bold text-white">Earn Pocket Income</h3>
             <p class="text-gray-400 text-sm leading-relaxed">Get paid directly for completing real micro-projects. Use your hard-earned money for personal expenses or learning courses.</p>
           </div>
+<div class="glass-card glass-card-hover rounded-2xl p-8 border border-white/10 text-center space-y-4">
+            <div class="w-16 h-16 rounded-2xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 text-3xl mx-auto">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Real Company Experience</h3>
+            <p class="text-gray-400 text-sm leading-relaxed">No theory or fake homework assignments. Work on real industry briefs provided by verified startups and established brands.</p>
+          </div>
 
+          <div class="glass-card glass-card-hover rounded-2xl p-8 border border-white/10 text-center space-y-4">
+            <div class="w-16 h-16 rounded-2xl bg-funnGreen-500/10 border border-funnGreen-500/30 flex items-center justify-center text-funnGreen-400 text-3xl mx-auto">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Certificates & References</h3>
+            <p class="text-gray-400 text-sm leading-relaxed">Receive official work experience certificates and recommendation letters to supercharge your college applications.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- How It Works Section (Teens) -->
+      <section class="max-w-7xl mx-auto px-4 lg:px-8">
+        <div class="glass-card rounded-3xl p-8 sm:p-12 border border-white/10 relative overflow-hidden">
+          <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="text-xs font-bold uppercase tracking-widest text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">Your Freelance Roadmap</span>
+            <h2 class="text-3xl font-black text-white mt-3">How to Start Earning in 4 Steps</h2>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
+            
+            <div class="p-6 rounded-2xl bg-funnDark-900/60 border border-white/5 space-y-3">
+              <span class="text-2xl font-black text-blue-400">Step 01</span>
+              <h3 class="text-lg font-bold text-white">Download & Register</h3>
+              <p class="text-gray-400 text-xs leading-relaxed">Create your free profile with parent consent and select your favorite skills.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-funnDark-900/60 border border-white/5 space-y-3">
+              <span class="text-2xl font-black text-blue-400">Step 02</span>
+              <h3 class="text-lg font-bold text-white">Apply for Tasks</h3>
+              <p class="text-gray-400 text-xs leading-relaxed">Browse live company projects and submit quick proposals matching your interest.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-funnDark-900/60 border border-white/5 space-y-3">
+              <span class="text-2xl font-black text-blue-400">Step 03</span>
+              <h3 class="text-lg font-bold text-white">Submit Work</h3>
+              <p class="text-gray-400 text-xs leading-relaxed">Complete the work within deadlines with guidance and support from Funngro mentors.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-funnDark-900/60 border border-white/5 space-y-3">
+              <span class="text-2xl font-black text-blue-400">Step 04</span>
+              <h3 class="text-lg font-bold text-white">Get Paid!</h3>
+              <p class="text-gray-400 text-xs leading-relaxed">Receive secure payments directly into your account and earn official certificates.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <section id="faq" class="max-w-4xl mx-auto px-4 lg:px-8 py-12">
+      <div class="text-center mb-10 space-y-2">
+        <h2 class="text-3xl font-extrabold text-white">Frequently Asked <span class="gradient-text-green">Questions</span></h2>
+        <p class="text-gray-400 text-sm">Everything you need to know about Funngro.</p>
+      </div>
+
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="glass-card rounded-2xl border border-white/10 overflow-hidden">
+          <button onclick="toggleFaq(1)" class="w-full px-6 py-4 text-left font-bold text-white flex justify-between items-center hover:bg-white/5 transition-colors">
+            <span>What type of tasks can companies post on Funngro?</span>
+            <i id="faq-icon-1" class="fa-solid fa-chevron-down text-gray-400 transition-transform"></i>
+          </button>
+          <div id="faq-answer-1" class="hidden px-6 pb-4 text-gray-300 text-sm leading-relaxed border-t border-white/5 pt-3">
+            Companies can post micro-projects across graphic design, UI/UX mockups, social media reels/shorts editing, content writing, SEO blogs, website development, research, and data entry.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="glass-card rounded-2xl border border-white/10 overflow-hidden">
+          <button onclick="toggleFaq(2)" class="w-full px-6 py-4 text-left font-bold text-white flex justify-between items-center hover:bg-white/5 transition-colors">
+            <span>How does Funngro ensure task quality and security?</span>
+            <i id="faq-icon-2" class="fa-solid fa-chevron-down text-gray-400 transition-transform"></i>
+          </button>
+          <div id="faq-answer-2" class="hidden px-6 pb-4 text-gray-300 text-sm leading-relaxed border-t border-white/5 pt-3">
+            All teen freelancers pass basic skill assessments before taking tasks. Payments are securely held in escrow and released to the teen only after the client approves the final submission.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="glass-card rounded-2xl border border-white/10 overflow-hidden">
+          <button onclick="toggleFaq(3)" class="w-full px-6 py-4 text-left font-bold text-white flex justify-between items-center hover:bg-white/5 transition-colors">
+            <span>Is parental consent required for teens joining Funngro?</span>
+            <i id="faq-icon-3" class="fa-solid fa-chevron-down text-gray-400 transition-transform"></i>
+          </button>
+          <div id="faq-answer-3" class="hidden px-6 pb-4 text-gray-300 text-sm leading-relaxed border-t border-white/5 pt-3">
+            Yes! Safety and legal compliance are top priorities. Teens under 18 register with parent consent and guidance, ensuring a safe and encouraging earning environment.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="glass-card rounded-2xl border border-white/10 overflow-hidden">
+          <button onclick="toggleFaq(4)" class="w-full px-6 py-4 text-left font-bold text-white flex justify-between items-center hover:bg-white/5 transition-colors">
+            <span>How much can a student earn on Funngro?</span>
+            <i id="faq-icon-4" class="fa-solid fa-chevron-down text-gray-400 transition-transform"></i>
+          </button>
+          <div id="faq-answer-4" class="hidden px-6 pb-4 text-gray-300 text-sm leading-relaxed border-t border-white/5 pt-3">
+            Earnings depend on skills and project complexity. On average, active teens earn anywhere from ₹2,000 to ₹15,000+ per month working part-time around their school schedule.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="cta-section" class="max-w-7xl mx-auto px-4 lg:px-8 py-12">
+      <div class="relative rounded-3xl p-8 sm:p-14 overflow-hidden border border-funnGreen-500/30 text-center space-y-6 bg-gradient-to-b from-funnDark-800 to-funnDark-900 shadow-2xl">
+        <div class="glow-orb w-[300px] h-[300px] bg-funnGreen-500/20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+        
+        <h2 id="cta-title" class="text-3xl sm:text-5xl font-black tracking-tight text-white relative z-10">
+          Ready to Work with <span class="gradient-text-green">Smart Teen Talent</span>?
+        </h2>
+        <p id="cta-desc" class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto relative z-10">
+          Join thousands of companies getting smart work done faster, or sign up as a student freelancer today.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 relative z-10 pt-4">
+          <button onclick="handleMainCtaAction()" id="cta-primary-btn" class="w-full sm:w-auto px-10 py-4 rounded-xl font-extrabold text-base bg-gradient-to-r from-funnGreen-500 to-emerald-600 hover:from-funnGreen-400 hover:to-emerald-500 text-funnDark-900 shadow-xl shadow-funnGreen-500/40 transition-all transform hover:scale-105">
+            Post a Project Now
+          </button>
+          <button onclick="handleSecondaryCtaAction()" id="cta-secondary-btn" class="w-full sm:w-auto px-10 py-4 rounded-xl font-extrabold text-base bg-funnDark-700 hover:bg-funnDark-600 text-white border border-white/10 transition-all">
+            Join as Teen Freelancer
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-funnDark-900 border-t border-white/10 py-12 px-4 lg:px-8 relative z-10">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      
+      <div class="space-y-4">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-funnGreen-500 flex items-center justify-center font-bold text-funnDark-900 text-sm">FG</div>
+          <span class="text-xl font-black text-white">Funngro</span>
+        </div>
+        <p class="text-gray-400 text-xs leading-relaxed">
+          Empowering India’s next generation of smart talent. Helping companies outsource micro-tasks while teens earn real income.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-bold text-white mb-3">For Companies</h4>
+        <ul class="space-y-2 text-xs text-gray-400">
+          <li><a href="#" class="hover:text-funnGreen-400 transition-colors">Post a Micro-Task</a></li>
+          <li><a href="#" class="hover:text-funnGreen-400 transition-colors">Browse Talent Categories</a></li>
+          <li><a href="#" class="hover:text-funnGreen-400 transition-colors">Escrow Protection</a></li>
+          <li><a href="#" class="hover:text-funnGreen-400 transition-colors">Enterprise Hire</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-bold text-white mb-3">For Teens</h4>
+        <ul class="space-y-2 text-xs text-gray-400">
+          <li><a href="#" class="hover:text-blue-400 transition-colors">Earn Money Online</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">Student Skills & Courses</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">Parent Safety Guide</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">Verify Certificates</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-bold text-white mb-3">Connect With Us</h4>
+        <div class="flex gap-3 text-lg text-gray-400 mb-3">
+          <a href="#" class="w-8 h-8 rounded-lg bg-funnDark-800 flex items-center justify-center hover:text-funnGreen-400 border border-white/10"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="w-8 h-8 rounded-lg bg-funnDark-800 flex items-center justify-center hover:text-funnGreen-400 border border-white/10"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="w-8 h-8 rounded-lg bg-funnDark-800 flex items-center justify-center hover:text-funnGreen-400 border border-white/10"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" class="w-8 h-8 rounded-lg bg-funnDark-800 flex items-center justify-center hover:text-funnGreen-400 border border-white/10"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <p class="text-[11px] text-gray-500">Contact: support@funngro.com</p>
+      </div>
+
+    </div>
+
+<div class="max-w-7xl mx-auto pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+      <p>&copy; 2026 Funngro Technologies Pvt. Ltd. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:underline">Privacy Policy</a>
+        <a href="#" class="hover:underline">Terms of Service</a>
+        <a href="#" class="hover:underline">SEO Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Notification Toast Container -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
+    <div class="glass-card px-5 py-3.5 rounded-2xl border border-funnGreen-500/40 shadow-2xl flex items-center gap-3 text-sm text-white">
+      <i class="fa-solid fa-circle-check text-funnGreen-400 text-lg"></i>
+      <span id="toast-msg">Action successful!</span>
+    </div>
+  </div>
+
+  <script>
+    // State management
+    let currentPage = 'company';
+
+    // Page switcher function
+    function switchPage(page) {
+      if (currentPage === page) return;
+      currentPage = page;
+
+      const companyPage = document.getElementById('company-page');
+      const teenPage = document.getElementById('teen-page');
+
+      // Desktop Toggle Buttons
+      const btnCompany = document.getElementById('btn-toggle-company');
+      const btnTeen = document.getElementById('btn-toggle-teen');
+
+      // Mobile Toggle Buttons
+      const mBtnCompany = document.getElementById('m-btn-toggle-company');
+      const mBtnTeen = document.getElementById('m-btn-toggle-teen');
+
+      // Header CTA Text & Bottom CTA Text
+      const navCtaText = document.getElementById('nav-cta-text');
+      const ctaTitle = document.getElementById('cta-title');
+      const ctaDesc = document.getElementById('cta-desc');
+      const ctaPrimaryBtn = document.getElementById('cta-primary-btn');
+
+      if (page === 'company') {
+        // Toggle visibility
+        companyPage.classList.remove('hidden');
+        teenPage.classList.add('hidden');
+
+        // Style Desktop Toggle
+        btnCompany.className = "flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 text-white bg-gradient-to-r from-funnGreen-600 to-funnGreen-500 shadow-md shadow-funnGreen-500/30";
+        btnTeen.className = "flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 text-gray-400 hover:text-white";
+
+        // Style Mobile Toggle
+        mBtnCompany.className = "py-2.5 px-3 rounded-lg font-bold text-xs flex items-center justify-center gap-2 bg-funnGreen-500 text-funnDark-900";
+        mBtnTeen.className = "py-2.5 px-3 rounded-lg font-bold text-xs flex items-center justify-center gap-2 text-gray-300";
+
+        // Dynamic Text Adjustments
+        navCtaText.innerText = "Hire Talent";
+        ctaTitle.innerHTML = 'Ready to Work with <span class="gradient-text-green">Smart Teen Talent</span>?';
+        ctaDesc.innerText = 'Join thousands of companies getting micro-tasks done faster and at lower costs.';
+        ctaPrimaryBtn.innerText = 'Post a Project Now';
+        ctaPrimaryBtn.className = "w-full sm:w-auto px-10 py-4 rounded-xl font-extrabold text-base bg-gradient-to-r from-funnGreen-500 to-emerald-600 hover:from-funnGreen-400 hover:to-emerald-500 text-funnDark-900 shadow-xl shadow-funnGreen-500/40 transition-all transform hover:scale-105";
+
+      } else {
+        // Toggle visibility
+        teenPage.classList.remove('hidden');
+        companyPage.classList.add('hidden');
+
+        // Style Desktop Toggle
+        btnTeen.className = "flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 text-white bg-gradient-to-r from-blue-600 to-indigo-600 shadow-md shadow-blue-500/30";
+        btnCompany.className = "flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 text-gray-400 hover:text-white";
+
+        // Style Mobile Toggle
+        mBtnTeen.className = "py-2.5 px-3 rounded-lg font-bold text-xs flex items-center justify-center gap-2 bg-blue-500 text-white";
+        mBtnCompany.className = "py-2.5 px-3 rounded-lg font-bold text-xs flex items-center justify-center gap-2 text-gray-300";
+
+        // Dynamic Text Adjustments
+        navCtaText.innerText = "Start Earning";
+        ctaTitle.innerHTML = 'Ready to Earn Your <span class="gradient-text-blue">First Income</span>?';
+        ctaDesc.innerText = 'Join over 100,000+ students building portfolios and earning money on Funngro.';
+        ctaPrimaryBtn.innerText = 'Register as Teen Freelancer';
+        ctaPrimaryBtn.className = "w-full sm:w-auto px-10 py-4 rounded-xl font-extrabold text-base bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-400 hover:to-indigo-500 text-white shadow-xl shadow-blue-500/40 transition-all transform hover:scale-105";
+      }
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Mobile menu toggle logic
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+
+    // FAQ Accordion Handler
+    function toggleFaq(index) {
+      const answer = document.getElementById(`faq-answer-${index}`);
+      const icon = document.getElementById(`faq-icon-${index}`);
+
+      if (answer.classList.contains('hidden')) {
+        answer.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        answer.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    // Toast notification handler
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toast-msg');
+      toastMsg.innerText = message;
+
+      toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+      toast.classList.add('translate-y-0', 'opacity-100');
+
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+      }, 3500);
+    }
+
+    function handleMainCtaAction() {
+      if (currentPage === 'company') {
+        showToast('Opening Company Project Posting Portal...');
+      } else {
+        showToast('Opening Teen Registration & Assessment Portal...');
+      }
+    }
+
+    function handleSecondaryCtaAction() {
+      if (currentPage === 'company') {
+        switchPage('teen');
+        showToast('Switched to Teen Earnings view!');
+      } else {
+        switchPage('company');
+        showToast('Switched to Company Hire view!');
+      }
+    }
+  </script>
+</body>
+</html>
 
