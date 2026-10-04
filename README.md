@@ -14,4 +14,4 @@ A modern, ultra-responsive, SEO-optimized 2-page website built for **Funngro** t
 - Hosted on **Vercel**
 
 ## 🌐 Live Demo
-[View Live Site](https://your-project.vercel.app)
+[View Live Site](https://funngro-fawn.vercel.app/)
